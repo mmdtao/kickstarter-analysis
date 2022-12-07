@@ -9,7 +9,7 @@ To determine the right launch date, a pivot table comparing launch date with cam
 
 To get a more in-depth perspective of how campaign goals impacted the outcome of those campaigns, the goals were first organized into $5,000 groups. Then the data needed to be organized by its outcomes: successful, failed, and canceled. To pull these values from the "Kickstarter" table, each cell needed to use COUNTIF equations. My COUNTIF equations first set the minimum boundary of the goal, followed by the maximum boundary, the outcome string, and lastly the subcategory, "plays." 
 
-    <img width="592" alt="Kickstarter CountIf code" src="https://user-images.githubusercontent.com/114324871/206075586-03a65ee8-1694-4c21-a632-d89769225379.png">
+<img width="592" alt="Kickstarter CountIf code" src="https://user-images.githubusercontent.com/114324871/206075586-03a65ee8-1694-4c21-a632-d89769225379.png">
 
 To crosscheck my table, I matched the sum of "Number Successful" column with the "Subcategory Statistics" sheet. The "Total Projects" column was determined by summing the previous outcome counts. Lastly, the percentages were determined taking the specific outcome count and dividing it by the total for each goal category. These results were then reformatted to show whole percentages. Then a line graph was created placing "Goals" on the x-axis and each percentage column in the y-axis.
 
