@@ -7,7 +7,7 @@ Specifically, Louise wants to know how crowdfunding campaigns for plays fared ba
 ## Analysis and Challenges
 To determine the right launch date, a pivot table comparing launch date with campaign outcomes was created to be able to sort the "Kickstarter" data and count the "theater" outcomes. Once the table was created and filtered to show only "Theater" data, a line graph was created to visualize this data showing months on the x-axis and outcomes on the y-axis. 
 
-To get a more in-depth perspective of how campaign goals impacted the outcome of those campaigns, the goals were first organized into $5,000 groups. Then the data needed to be organized by its outcomes: successful, failed, and canceled. To pull these values from the "Kickstarter" table, each cell needed to use COUNTIF equations. My COUNTIF equations first set the minimum boundary of the goal, followed by the maximum boundary, the outcome string, and lastly the subcategory, "plays." 
+To get a more in-depth perspective of how campaign goals impacted the outcome of those campaigns, the goals were first organized into $5,000 groups. Then the data needed to be organized by its outcomes: successful, failed, and canceled. To pull these values from the "Kickstarter" table, each cell needed to use COUNTIF equations. My COUNTIF equations first set the minimum boundary of the goal, followed by the maximum boundary, the outcome string, and lastly the subcategory, "plays" (shown below): 
 
 <img width="592" alt="Kickstarter CountIf code" src="https://user-images.githubusercontent.com/114324871/206075586-03a65ee8-1694-4c21-a632-d89769225379.png">
 
